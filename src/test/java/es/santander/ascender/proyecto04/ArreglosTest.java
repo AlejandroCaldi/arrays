@@ -4,9 +4,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-public class ArraysTest {
+public class ArreglosTest {
 
-    private final Arrays cut = new Arrays();
+    private final Arreglos cut = new Arreglos();
 
     @Test
     public void testGenerarArrayIncremental() {

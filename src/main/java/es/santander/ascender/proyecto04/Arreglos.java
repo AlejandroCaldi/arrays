@@ -1,6 +1,6 @@
 package es.santander.ascender.proyecto04;
 
-public class Arrays {
+public class Arreglos {
 
     public int[] generarArrayIncremental(int valorMaximo, boolean imprimir) {
 

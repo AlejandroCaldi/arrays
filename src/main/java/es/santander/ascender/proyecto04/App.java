@@ -2,13 +2,10 @@ package es.santander.ascender.proyecto04;
 
 import java.util.Scanner;
 
-/**
- * Hello world!
- */
 public class App {
     public static void main(String[] args) {
         System.out.println("Bienvenido al Ejercicio de Manipulación de Arrays");
-        Arrays arra = new Arrays();
+        Arreglos arra = new Arreglos();
         
         Scanner scanner = new Scanner(System.in);
 
