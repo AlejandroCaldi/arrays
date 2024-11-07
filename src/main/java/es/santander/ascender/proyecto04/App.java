@@ -20,8 +20,6 @@ public class App {
         int[] arrayOriginal = arra.generarArrayIncremental(largoArray-1, true);
         int[] arrayRevertido = arra.revertirArrayIncremental(arrayOriginal, true);
 
-        System.out.println(arrayRevertido);
-
         System.out.println("Fin del Ejercicio de Manipulación de Arrays");
     }
 }
