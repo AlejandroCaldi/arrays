@@ -12,7 +12,8 @@ public class Arrays {
 
 
         if (imprimir) {
-            System.out.println("Array otiginal");
+
+            System.out.println("\nArray original");
             imprimirArray(arrayGenerado);
         }
 
@@ -40,7 +41,6 @@ public class Arrays {
 
         public void imprimirArray(int[] arrayImprimir) {
 
-            System.out.println("\n");
             System.out.print("[");
             for(int i=0; i<=arrayImprimir.length-1;i++) {
 
