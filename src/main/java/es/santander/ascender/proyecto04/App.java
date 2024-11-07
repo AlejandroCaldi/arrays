@@ -12,7 +12,6 @@ public class App {
         
         Scanner scanner = new Scanner(System.in);
 
-        // Reading a String input
         System.out.print("Ingrese el largo del array original: ");
         int largoArray = scanner.nextInt();
         scanner.close();
