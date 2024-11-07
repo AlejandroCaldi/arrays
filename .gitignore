@@ -1,6 +1,11 @@
 # Compiled class file
 *.class
 
+#Agregados por mi
+.mvn
+target/ 
+.vscode
+
 # Log file
 *.log
 
