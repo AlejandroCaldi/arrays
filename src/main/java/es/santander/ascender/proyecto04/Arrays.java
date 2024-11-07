@@ -10,8 +10,9 @@ public class Arrays {
             arrayGenerado[i] = i;
         }
 
-        if (imprimir) {
 
+        if (imprimir) {
+            System.out.println("Array otiginal");
             imprimirArray(arrayGenerado);
         }
 
@@ -30,7 +31,7 @@ public class Arrays {
         }
 
         if (imprimir) {
-
+            System.out.println("Array revertido");
             imprimirArray(arrayNuevo);
         }
 
