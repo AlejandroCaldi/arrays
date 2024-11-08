@@ -31,7 +31,7 @@ public class ArreglosTest {
         assertNotNull(prueba, "El array recibido es nulo");
         for (int i = 0; i <= limite - 1; i++) {
 
-            assertEquals(prueba[i], esperado[limite -1 -i], "En el índice " + i + " del array no coinciden los valores");
+            assertEquals(prueba[i], esperado[(limite -1) -i], "En el índice " + i + " del array no coinciden los valores");
 
         }
 
