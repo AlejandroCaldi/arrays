@@ -14,7 +14,7 @@ public class App {
         scanner.close();
 
         int[] arrayOriginal = arra.generarArrayIncremental(largoArray-1, true);
-        int[] arrayRevertido = arra.revertirArrayIncremental(arrayOriginal, true);
+        arra.revertirArrayIncremental(arrayOriginal, true);
 
         System.out.println("Fin del Ejercicio de Manipulación de Arrays");
     }
