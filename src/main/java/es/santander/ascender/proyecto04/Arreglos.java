@@ -27,7 +27,7 @@ public class Arreglos {
         int j = arrayInicial.length - 1;
         for (int i = 0; i <= arrayInicial.length - 1; i++) {
 
-            arrayNuevo[i] = j - i;
+            arrayNuevo[i] = arrayInicial[j-i];
         }
 
         if (imprimir) {
