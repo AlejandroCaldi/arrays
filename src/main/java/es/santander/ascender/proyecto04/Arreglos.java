@@ -34,9 +34,39 @@ public class Arreglos {
             System.out.println("Array revertido");
             imprimirArray(arrayNuevo);
         }
-
         return arrayNuevo;
     }
+
+    public float devolverValorEnIndice(float[] lista, int indiceABuscar)throws Exception{
+      
+        if (indiceABuscar < 0) {
+            throw new Exception("Me has pedido un índice negativo: " + indiceABuscar);
+        } else {
+            if (indiceABuscar >= lista.length) {
+                throw new Exception("El índice es mayor que el arreglo: " + indiceABuscar);
+            }
+        }
+
+        return lista[indiceABuscar];
+    }
+
+    public double sumarValores(double[] valores) {
+   
+        double suma = 0.0;
+
+        for (int i = 0; i < valores.length; i++) {
+            suma = suma + valores[i];
+        }
+
+        return suma;
+    }
+
+    public double calcularMediaValores(double[] valores) {
+        double suma = sumarValores(valores);
+
+        return suma/valores.length;
+    }
+
 
     public void imprimirArray(int[] arrayImprimir) {
 
